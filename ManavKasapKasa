@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class manavKasap {
+    public static void main(String[] args) {
+        double armut = 2.14 , elma = 3.67 , domates = 1.11 , muz = 0.95 , patlican = 5.00 , toplam ;
+        double kg1 , kg2 , kg3 , kg4 ,kg5 ;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Kasa Programı");
+        System.out.print("Armut  Kilo : ");
+        kg1 = input.nextDouble();
+        System.out.print("Elma Kilo : ");
+        kg2 = input.nextDouble();
+        System.out.print("Domates Kilo : ");
+        kg3 = input.nextDouble();
+        System.out.print("Muz Kilo : ");
+        kg4 = input.nextDouble();
+        System.out.print("Patlıcan Kilo : ");
+        kg5 = input.nextDouble();
+        toplam = (kg1 * armut) + (kg2 * elma) + (kg3 * domates) + (kg4 * muz) + (kg5 * patlican) ;
+        System.out.print("Toplam Tutar : " + toplam + " TL");
+    }
+}
